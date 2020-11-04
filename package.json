@@ -1,0 +1,17 @@
+{
+  "name": "bullseye-cli",
+  "version": "1.0.0",
+  "main": "./lib/main.js",
+  "preferGlobal": true,
+  "bin": {
+    "bullseye": "./bin/index.js"
+  },
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.20.0",
+    "inquirer": "^6.4.1",
+    "lodash": "^4.17.13",
+    "request": "^2.88.0",
+    "rimraf": "^3.0.0"
+  }
+}
